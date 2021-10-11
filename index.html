@@ -165,10 +165,15 @@
             document.getElementById("subTotal").innerText = "$" + subTotal; 
             document.getElementById("tax").innerText = "$" + tax; 
             document.getElementById("grandTotal").innerText = "$" + grandTotal; 
+            
 
         }
         document.getElementById("bookNow").addEventListener("click",function () {
-            window.open("successMessage.html");
+          
+            location.href = "successMessage.html";
+         
+            
+            
         })
 
 
